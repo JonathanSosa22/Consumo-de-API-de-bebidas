@@ -7,7 +7,7 @@ const LookForBebidas = ({ data }) => {
       <div className="info">
         <h1>{data.strDrink}</h1>
         <p>{data.strInstructions}</p>
-        <h3>Ingredientes</h3>
+        <h3>Ingredients</h3>
         <li>
           {data.strIngredient1} {data.strMeasure1}
         </li>
