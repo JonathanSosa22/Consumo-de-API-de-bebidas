@@ -37,6 +37,13 @@ img {
   border-radius: 100%;
 }
 
+@media (max-width: 480px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 .bebidas {
   background-color: beige;
   border: 1px solid black;
